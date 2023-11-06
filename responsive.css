@@ -1,0 +1,99 @@
+@media (max-width: 1200px) {
+  .navbar.mobileBar {
+    display: flex;
+  }
+  .box {
+    width: calc(50% - 40px);
+    margin-bottom: 20px;
+  }
+  .shop-section-1 h2 {
+    font-size: 16px;
+  }
+  .nav-logo,
+  .nav-signin,
+  .nav-return,
+  .cart-logo {
+    display: none;
+  }
+  .navbar.mobileBar .nav-logo,
+  .navbar.mobileBar .nav-signin,
+  .navbar.mobileBar .nav-return,
+  .navbar.mobileBar .cart-logo {
+    display: block;
+  }
+  .panel {
+    position: relative;
+    justify-content: space-between;
+  }
+  .panel-all {
+    display: block;
+    position: absolute;
+    background: #000;
+    background: #000;
+    left: -100%;
+    top: 50px;
+    z-index: 1;
+  }
+  .panel-all p {
+    margin-left: 0;
+    padding: 20px;
+  }
+  .toggleNav .panel-all {
+    left: 0;
+    transition: 0.5s ease;
+  }
+  .nav-search {
+    width: 80%;
+  }
+
+  .shop-section-2 {
+    background-position: center;
+  }
+  .footer-two {
+    flex-direction: column;
+  }
+  .footer-two-item {
+    padding-left: 0;
+  }
+  .footer-two-item {
+    width: 100%;
+  }
+  .item-comn:first-child {
+    margin-left: 0;
+  }
+}
+@media (max-width: 480px) {
+  .box {
+    width: calc(100% - 40px);
+    margin-bottom: 20px;
+  }
+  .hero-section {
+    height: 280px;
+  }
+  .hero-section {
+    background-color: blueviolet;
+  }
+  .footer-item-1 {
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .footer-item-3 {
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .footer-item-5 {
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .footer-item-7 {
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .hero-section {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .shop-section-2 {
+    height: 170px;
+  }
+}
